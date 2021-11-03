@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    margin-top: 100px
+}
+
+.numBox{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin: auto 20px auto 20px;
+    vertical-align: middle;
+    line-height: 50px;  /* Same as div height*/
+}
+
+.selectionBtn{
+    width: 100px;
+    height: 50px;
+    margin: auto 10px auto 10px
+}
+
+#resultBox{
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    vertical-align: middle;
+    line-height: 50px;  /* Same as div height*/
+}
+
+#refreshBtn{
+    height: 50px;
+    margin: 20px 10px auto 10px;
+    grid-column: 1 / 5;
+}

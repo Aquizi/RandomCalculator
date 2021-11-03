@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Random Calculator</h1>
+            <div class="grid-container">
+                <div class="numBox" id="num1Box"></div>
+                <div class="numBox" id="num2Box"></div>
+            </div>
+
+        <div class="grid-container">
+            <button class="selectionBtn" onclick="add()">Add</button>
+            <button class="selectionBtn" onclick="subtract()">Subtract</button>
+            <button class="selectionBtn" onclick="multiply()">Multiply</button>
+            <button class="selectionBtn" onclick="divide()">Divide</button>
+            <button id="refreshBtn" onclick="getNumbers()">Refresh</button>
+        </div>
+
+        <p id="errorMsg"></p>
+
+        <div class="grid-container">
+            <div id="resultBox"></div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
